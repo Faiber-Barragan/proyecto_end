@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecera {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #EDCD1F;
+    font-size: 20px;
+    width: 30%;
+}
+
+.slogan {
+    margin-top: 3px;
+    margin-left: 4px;
+    color: #1E2D3B;
+}
+
+.img_logo {
+    background-image: url("../img/icono.webp");
+    background-size: cover;
+    width: 50px;
+    height: 53px;
+    margin-right: 5px;
+}
+
+.menu {
+    width: 70%;
+    height: 100%;
+    background-color: #1E2D3B;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 15px;
+}
+
+/* Inicio video */
+#inicioVideo {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/inio.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_inicio {
+    margin-top: 100px;
+    padding: 18px;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing: 4px;
+    text-shadow: 0px 1px 4px black;
+    color: #FFFFFF;
+}
+
+/* Inicio Servicios */
+#servicios {
+    margin: 0px auto;
+    width: 60%;
+}
+
+.text_servicios {
+    margin: 0 auto;
+    padding-top: 116px;
+    padding-bottom: 12px;
+    width: 330px;
+    height: 66px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    color: #C6C6C6;
+}
+
+.barra {
+    margin: 0 auto;
+    width: 116px;
+    height: 10px;
+    background-color: #EDCD1F;
+}
+
+.cajas {
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caja {
+    width: 31%;
+    background-color: #F7F7F7;
+}
+
+.caja .image-wrap img {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    background-color: #F7F7F7;    
+}
+
+.titulo_servicios {
+    margin: 18px auto;
+    width: 85%;
+    color: #3D5985; 
+}
+
+.parrafo_servicios {
+    width: 85%;
+    margin: 5px auto;
+    margin-bottom: 35px;
+    line-height: 1.6em;
+    font-size: 15px;
+    color: #3B3A3A;
+    
+}
+
+/* Inicio Nosotros */
+#nosotros {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.nosotrosA {
+    width: 50%;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+.text_nosotros {
+    padding-top: 116px;
+    padding-bottom: 50px;
+    width: 60%;
+    height: auto;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 55px;
+    color: #C6C6C6;
+}
+
+.parrafo_nosotros {
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 1.7em;
+    color: #3B3A3A;
+    font-weight: lighter;
+    padding-right: 50px;
+}
+
+.izquierda {
+    margin: 0px;
+    margin-top: 10px;
+    width: 116px;
+    height: 10px;
+    background-color: #EDCD1F;
+}
+
+.nosotrosB {
+    width: 50%;
+    background-image: url("../img/image4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Inicio Recorrido */
+
+#recorrido {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: #EDCD1F;
+}
+
+.caja_principal {
+    width: 15%;
+    height: 140px;
+}
+
+.caja_principal > h2 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.caja_principal > p {
+    text-align: center;
+    color: #3D5975;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.1em
+}
+
+.barra_vertical {
+    width: 2px;
+    height: 71px;
+    margin: 0 15px;
+    background-color: #FFFFFF;
+}
+
+/* Inicio Proyectos */
+#proyectos {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cajas_proyectos {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proyecto {
+    display: block;
+    width: 49%;
+    margin-top: 10px;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+}
+
+/* Inicio Empresas */
+
+#clientes {
+    margin-top: 80px;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding-bottom: 50px;
+}
+
+.titulo_clientes {
+    padding-top: 50px;
+}
+
+.iconos_empresas {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iconos_empresas img {
+    margin: 0 30px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.alcaldia {
+    width: 15%;
+    height: 127px;
+}
+
+.argos {
+    width: 15%;
+    height: 127px;
+
+}
+
+.serving {
+    width: 25%;
+    height: 127px;
+}
+
+
+/*Inicio Contacto  */
+#contacto {
+    margin: 0 auto;
+    width: 60%;
+}
+
+datai{
+    margin-top: 50px;
+    width: 100%;
+    height: 320px;
+}
+
+.principal_datos {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.datos {
+    width: 45%;
+    font-size: 1.2em;
+}
+
+.datos p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.datos h4 {
+    font-size: 1.4em;
+}
+
+.barra_contacto {
+    margin: 30px 0;
+}
+
+
+.whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 100px;
+    width: 60px;
+    z-index: 1000;
+    border-radius: 32px;
+    background-color: #ECEFF1;
+    box-shadow: 0px 0px 10px rgb(158, 157, 157);
+    transition: all 300ms;
+}
+
+.whatsapp img {
+    width: 100%;
+    height: auto; 
+}
+
+.whatsapp:hover {
+    box-shadow: 0px 0px 20px rgb(111, 180, 19);
+    width: 68px;
+}
+
+/* Footer */
+footer{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: small;
+}
