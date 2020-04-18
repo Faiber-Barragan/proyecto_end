@@ -14,7 +14,6 @@ body {
     width: 100%;
     height: 100px;
     position: fixed;
-
 }
 
 .logo {
@@ -24,7 +23,7 @@ body {
     justify-content: center;
     align-content: center;
     background-color: #EDCD1F;
-    font-size: 20px;
+    font-size: 1.2em;
     width: 30%;
 }
 
@@ -64,6 +63,12 @@ body {
     color: white;
     display: block;
     margin: 15px;
+    transition: all 100ms;
+}
+
+.menu > ul > li:hover > a {
+    font-size: 1.2em;
+    color: #EDCD1F;
 }
 
 /* Inicio video */
@@ -83,11 +88,11 @@ body {
 .text_inicio {
     margin-top: 100px;
     padding: 18px;
-    width: 50%;
+    width: 60%;
     height: 300px;
     text-align: center;
-    font-size: 37px;
-    letter-spacing: 4px;
+    font-size: 2.3em;
+    letter-spacing: 0.04em;
     text-shadow: 0px 1px 4px black;
     color: #FFFFFF;
 }
@@ -104,8 +109,8 @@ body {
     padding-bottom: 12px;
     width: 330px;
     height: 66px;
-    font-size: 55px;
-    letter-spacing: 3px;
+    font-size: 3.5em;
+    letter-spacing: 0.04em;
     font-weight: bold;
     text-align: center;
     color: #C6C6C6;
@@ -175,23 +180,24 @@ body {
 }
 
 .text_nosotros {
+    margin-right: 0.2em;
     padding-top: 116px;
     padding-bottom: 50px;
     width: 60%;
     height: auto;
     font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 55px;
+    letter-spacing: 0.04em;
+    font-size: 3em;
     color: #C6C6C6;
 }
 
 .parrafo_nosotros {
     margin-top: 40px;
-    font-size: 15px;
+    font-size: 0.3em;
     line-height: 1.7em;
     color: #3B3A3A;
     font-weight: lighter;
-    padding-right: 50px;
+    margin-right: 0.3em;
 }
 
 .izquierda {
@@ -229,7 +235,7 @@ body {
 
 .caja_principal > h2 {
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 3em;
     font-weight: bold;
     text-align: center;
 }
@@ -237,7 +243,7 @@ body {
 .caja_principal > p {
     text-align: center;
     color: #3D5975;
-    font-size: 23px;
+    font-size: 1.4em;
     font-weight: bold;
     line-height: 1.1em
 }
@@ -345,6 +351,24 @@ body {
     width: 45%;
     font-size: 1.2em;
 }
+
+.datos .redes_sociales a img {
+    width: 20%;
+    transition: all 100ms;
+}
+
+.datos .redes_sociales {
+    margin-top: 1em;
+}
+
+.datos .redes_sociales a {
+    margin: 1em;
+}
+
+.datos .redes_sociales a:hover img {
+    width: 23%;
+}
+
 
 .datos p {
     margin-top: 25px;
