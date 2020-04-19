@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body {
+#body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -72,21 +72,20 @@ body {
 }
 
 /* Inicio video */
-#inicioVideo {
-    width: 100%;
+#ParallaxVideo{ 
     height: 100vh;
-    background-image: url(../img/inio.webp);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+#ParallaxVideo video{ 
+    min-width: 100%;
+    position: fixed;
+    top:-300px;
+    z-index: -99;
 }
 
 .text_inicio {
-    margin-top: 100px;
+    margin: 0 auto;
+    margin-top: 35vh;
     padding: 18px;
     width: 60%;
     height: 300px;
@@ -95,9 +94,15 @@ body {
     letter-spacing: 0.04em;
     text-shadow: 0px 1px 4px black;
     color: #FFFFFF;
-}
+} 
+
 
 /* Inicio Servicios */
+#servicios1 {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+}
 #servicios {
     margin: 0px auto;
     width: 60%;
@@ -167,7 +172,6 @@ body {
     flex-direction: row;
     height: auto;
     width: 100%;
-    margin-top: 50px;
 }
 
 .nosotrosA {
@@ -257,6 +261,11 @@ body {
 }
 
 /* Inicio Proyectos */
+#proyectos1 {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white;
+}
 #proyectos {
     width: 60%;
     margin: 0 auto;
@@ -283,9 +292,7 @@ body {
 }
 
 /* Inicio Empresas */
-
 #clientes {
-    margin-top: 80px;
     width: 100%;
     background-color: #F7F7F7;
     padding-bottom: 50px;
@@ -328,6 +335,10 @@ body {
 
 
 /*Inicio Contacto  */
+#contacto1 {
+    width: 100%;
+    background-color: white;
+}
 #contacto {
     margin: 0 auto;
     width: 60%;
@@ -353,21 +364,31 @@ body {
     font-size: 1.2em;
 }
 
-.datos .redes_sociales a img {
-    width: 20%;
+.datos a {
+    display: block;
+    width: 25%;
     transition: all 100ms;
 }
 
-.datos .redes_sociales {
+.redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redes_sociales {
+    width: 100%;
+}
+
+.redes_sociales img{
+    width: 80%;
     margin-top: 1em;
+    transition: width 300ms;
 }
 
-.datos .redes_sociales a {
-    margin: 1em;
-}
-
-.datos .redes_sociales a:hover img {
-    width: 23%;
+a:hover .redes_sociales img {
+    width: 90%;
 }
 
 
@@ -409,10 +430,11 @@ body {
 
 /* Footer */
 footer{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: small;
+    background-color: white;
 }
