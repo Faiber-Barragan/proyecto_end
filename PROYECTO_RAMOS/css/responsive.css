@@ -46,11 +46,11 @@
 
 
 @media (max-width: 854px){
-    .menu > ul {
+    nav > ul {
         margin-right: 10px;
     }
 
-    .menu > ul > li > a {
+    nav > ul > li > a {
         margin: 5px
     }
 
@@ -134,7 +134,7 @@
         width: 40%;
     }
 
-    .menu {
+    nav {
         width: 60%;
     }
 }
