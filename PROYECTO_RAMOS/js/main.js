@@ -22,3 +22,13 @@ $(document).ready(function () {
     slideWidth: 935
   });
 });
+
+// Interruptor nav
+
+$('#mostrar-nav').on('click', function(){
+    $('nav').toggleClass('mostrar');
+})
+
+$('.ocul').on('click', function(){
+  $('nav').toggleClass('mostrar');
+})

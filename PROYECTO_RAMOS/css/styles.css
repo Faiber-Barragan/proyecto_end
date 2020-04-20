@@ -42,13 +42,13 @@
     margin-right: 5px;
 }
 
-.menu {
+nav {
     width: 70%;
     height: 100%;
     background-color: #1E2D3B;
 }
 
-.menu > ul {
+nav > ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@
     margin-right: 30px;
 }
 
-.menu > ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     color: white;
     display: block;
@@ -67,7 +67,7 @@
     transition: all 100ms;
 }
 
-.menu > ul > li:hover > a {
+nav > ul > li:hover > a {
     font-size: 1.2em;
     color: #EDCD1F;
 }
