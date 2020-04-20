@@ -1,0 +1,322 @@
+@media (max-width: 1100px) {
+    .caja_principal > h2 {
+        font-size: 2.7em;
+    }
+
+    .caja_principal > p {
+        font-size: 1.3em;
+    }
+
+    .text_inicio {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1024px) {
+    #servicios {
+        width: 70% 
+    }
+
+    .text_nosotros {
+        width: 70% 
+    }
+
+    #recorrido .emboltura {
+        width: 90%;
+    }
+
+    #proyectos {
+        width: 70%;
+    }
+
+    .iconos_empresas {
+        width: 70%;
+    }
+
+    #contacto {
+        width: 70%
+    }
+}
+
+
+@media (max-width: 854px){
+    .menu > ul {
+        margin-right: 10px;
+    }
+
+    .menu > ul > li > a {
+        margin: 5px
+    }
+
+    .text_inicio {
+        font-size: 1.5em;
+    }
+
+    .caja_principal > h2 {
+        font-size: 2.5em;
+    }
+
+    .caja_principal > p {
+        font-size: 1.1em;
+    }
+
+    #servicios {
+        width: 80% 
+    }
+
+    .text_servicios {
+        font-size: 3em;
+    }
+
+    .text_nosotros {
+        width: 80% 
+    }
+
+    #recorrido .emboltura {
+        width: 80%;
+    }
+
+    #proyectos {
+        width: 80%;
+    }
+
+    .iconos_empresas {
+        width: 90%;
+    }
+
+    #contacto {
+        width: 80%
+    }
+}
+
+@media (max-width: 768px){
+    .logo {
+        font-size: 1em;
+    }
+
+    .slogan {
+        margin-left: 0px;
+    }
+
+    #servicios {
+        width: 90% 
+    }
+
+    .text_nosotros {
+        width: 90% 
+    }
+
+    #recorrido .emboltura {
+        width: 100%;
+    }
+
+    #proyectos {
+        width: 90%;
+    }
+
+    .iconos_empresas {
+        width: 90%;
+    }
+
+    #contacto {
+        width: 90%
+    }
+}
+
+@media (max-width: 686px) {
+    .logo {
+        width: 40%;
+    }
+
+    .menu {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Cabecera */
+    .logo {
+        width: 100%;
+        justify-content: start;
+    }
+
+    .img_logo {
+        margin-left: 20px;
+    }
+
+    .slogan {
+        margin-top: 6px;
+    }
+
+    .barras {
+        position: absolute;
+        top: 37px;
+        right: 30px;
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        background-image: url(../img/barras.svg)
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+    /* Inicio */    
+    #inicio {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/inio.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .text_inicio {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9em;
+        padding: 0px;
+    }
+
+    .text_inicio h2{
+        display: block;
+    }
+    
+    #ParallaxVideo {
+        display: none;
+    }
+
+    /* Servicios*/
+    #servicios {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .text_servicios {
+        font-size: 2.8em;
+        letter-spacing: 0.01em;
+        padding-bottom: 0px;
+        width: auto;
+    }
+
+    .cajas {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .caja {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+
+    /* inicio nosotros */
+
+    #nosotros {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+    }
+    
+    .nosotrosA {
+        width: 100%;
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-bottom: 25px;
+    }
+    
+    .text_nosotros {
+        text-align: center;
+        margin-right: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
+        letter-spacing: 0.01em;
+    }
+    
+    .parrafo_nosotros {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    
+    .izquierda {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    .nosotrosB {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Inicio recorrido */
+
+    .emboltura {
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .caja_principal {
+        width: 46%;
+        padding: 5px;
+        height: 120px;
+    }
+
+    .barra_vertical {
+        position: relative;
+        top: -15px;
+        
+    }
+
+    /* Empresas */
+    .iconos_empresas {
+        width: 100%;
+    }
+
+    .iconos_empresas img {
+        margin: 0 5px;
+        box-shadow: 0px 0px 2px black;
+    }
+
+    .alcaldia {
+        width: 25%;
+        height: 127px;
+    }
+    
+    .argos {
+        width: 25%;
+        height: 127px;
+    
+    }
+    
+    .serving {
+        width: 37%;
+        height: 127px;
+    }
+
+    /* Contactos */
+    .principal_datos {
+        flex-direction: column;
+    }
+
+    .datos {
+        width: 90%;
+    }
+
+    .redes {
+        margin-bottom: 2em;
+    }
+
+}

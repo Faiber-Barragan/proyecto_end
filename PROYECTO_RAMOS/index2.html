@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <title>Ramos Constructions</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/corona.png" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
     <!-- Slider -->
     
@@ -16,31 +18,18 @@
 </head>
 
 <body id="body">
-    <!-- Load Facebook SDK for JavaScript -->
+    <!-- Inicio Plugin Facebook -->
     <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v6.0'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your customer chat code -->
     <div class="fb-customerchat" attribution=setup_tool page_id="102899634725462"
         logged_in_greeting="Hola, nos alegra resolver tus dudas"
         logged_out_greeting="Hola, nos alegra resolver tus dudas">
     </div>
+
     <!-- Inicio cabecera -->
     <header id="cabecera">
+        <div class="barras">
+
+        </div>
         <div class="logo">
             <div class="img_logo">
 
@@ -63,14 +52,18 @@
     <!-- Fin cabecera -->
 
     <!-- Inicio video -->
+    <section id="inicio">
+        <div class="text_inicio">
+            <h2>LÍDERES EN CALIDAD DE <br /> CONTRUCCIÓN E <br /> INFRAESTRUCTURA <br /> ▼</h2>
+        </div>
+    </section>
     <section id="ParallaxVideo">
 
         <video autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4">
         </video>
         <div class="text_inicio">
-            <h2>LÍDERES EN CALIDAD DE <br /> CONTRUCCIÓN E <br /> INFRAESTRUCTURA</h2>
-            <h2>▼</h2>
+            <h2>LÍDERES EN CALIDAD DE <br /> CONTRUCCIÓN E <br /> INFRAESTRUCTURA <br /> ▼</h2>
         </div>
 
     </section>
@@ -98,6 +91,7 @@
                                 sobre
                                 ti.</p>
                         </div>
+                    </div>
                 </article>
                 <article class="caja">
                     <div class="image-wrap">
@@ -111,6 +105,7 @@
                                 sobre
                                 ti.</p>
                         </div>
+                    </div>
                 </article>
                 <article class="caja">
                     <div class="image-wrap">
@@ -124,6 +119,7 @@
                                 sobre
                                 ti.</p>
                         </div>
+                    </div>
                 </article>
             </div>
         </section>
@@ -158,30 +154,32 @@
 
     <!-- Inicio Recorrido -->
     <section id="recorrido">
-        <div class="caja_principal">
-            <h2>2003</h2>
-            <p>Años de Establecimiento</p>
-        </div>
-        <div class="barra_vertical">
+        <div class="emboltura">
+            <div class="caja_principal">
+                <h2>2003</h2>
+                <p>Años de <br />Establecimiento</p>
+            </div>
+            <div class="barra_vertical">
 
-        </div>
-        <div class="caja_principal">
-            <h2>206</h2>
-            <p>Proyectos Completados</p>
-        </div>
-        <div class="barra_vertical">
+            </div>
+            <div class="caja_principal">
+                <h2>206</h2>
+                <p>Proyectos <br /> Completados</p>
+            </div>
+            <div class="barra_vertical">
 
-        </div>
-        <div class="caja_principal">
-            <h2>870</h2>
-            <p>Constructores Contratados</p>
-        </div>
-        <div class="barra_vertical">
+            </div>
+            <div class="caja_principal">
+                <h2>870</h2>
+                <p>Constructores <br /> Contratados</p>
+            </div>
+            <div class="barra_vertical">
 
-        </div>
-        <div class="caja_principal">
-            <h2>26</h2>
-            <p>Premios <br /> Obtenidos</p>
+            </div>
+            <div class="caja_principal">
+                <h2>26</h2>
+                <p>Premios <br /> Obtenidos</p>
+            </div>
         </div>
     </section>
     <!-- Fin Recorrido -->
@@ -201,24 +199,6 @@
                 <div><img src="img/proyecto3.jpg" title="Happy trees"></div>
                 <div><img src="img/proyecto4.jpg" title="Happy trees"></div>
             </div>
-
-
-
-            <!-- 
-            <div class="cajas_proyectos">
-                <a class="proyecto" href="#">
-                    <img src="img/proyecto1.jpg" alt="Proyecto 1" />
-                </a>
-                <a class="proyecto" href="#">
-                    <img src="img/proyecto2.jpg" alt="Proyecto 2" />
-                </a>
-                <a class="proyecto" href="#">
-                    <img src="img/proyecto3.jpg" alt="Proyecto 3" />
-                </a>
-                <a class="proyecto" href="#">
-                    <img src="img/proyecto4.jpg" alt="Proyecto 4" />
-                </a>
-            </div> -->
         </section>
     </section>
     <!-- Fin Proyectos -->
@@ -324,5 +304,5 @@
     </footer>
 
 </body>
-
+<script type="text/javascript" src="js/main.js"></script>
 </html>
